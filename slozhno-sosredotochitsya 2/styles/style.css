@@ -205,12 +205,8 @@
   width: calc(315 / 1024 * 100%);
   color: var(--under-header-title);
   padding-top: 25px;
-
-  
- 
-  
-
 }
+
 .section-third {
   display: grid;
   grid-template-columns: 320px 1fr;
