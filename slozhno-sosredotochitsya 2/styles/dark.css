@@ -1,0 +1,28 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_dark {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  ---main-font: "IBM Plex Mono",monospace;
+  --bg-color: #ff0070;
+  --accent-color: #ff0070;
+  --header-title-color: #db00ff;
+  --hover-border-color: rgba(255, 0, 112, 0.4);
+  --main-image: url("../images/cover-image-dark.png");
+  --color-border:#ff0070;
+  --text-description:#f1b2ce;
+  --header-about: #000028;
+  --button-color: #ff0070;
+  --shadow-color: #ff0070;
+  --content-title-color:#000028;
+  --rec-decor-visibility: visible;
+  --link-focus-color: #f1b2ce;
+  --main-weight: 700;
+  --under-header-title:#ff0070;
+}
